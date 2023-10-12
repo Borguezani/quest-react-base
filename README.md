@@ -22,7 +22,7 @@
 
 ### Screenshot
 #### Desktop Screenshot
-![](./src/design/Desktop.gif)
+![](./src/images/Desktop.gif)
 
 ## Sobre o processo
 
