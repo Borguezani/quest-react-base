@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import AlertButton from "./components/AlertButton/button";
+import TextDecoration from "./components/TextDecoration/textDecoration";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <TextDecoration
+        texto="Esse daqui é um parágrafo contendo um texto colorido."
+        textColor="red"
+        bgColor="#F4A460"
+      ></TextDecoration>
+      <TextDecoration
+        texto="Esse daqui é um parágrafo contendo um texto colorido."
+        textColor="#000080"
+        bgColor="#00CED1"
+      ></TextDecoration>
+      <TextDecoration></TextDecoration>
+      <AlertButton label="Baixar Jogos"></AlertButton>
+      <AlertButton label="Baixar Vídeos"></AlertButton>
+      <AlertButton label="Baixar Músicas"></AlertButton>
     </div>
   );
 }
-
 export default App;
